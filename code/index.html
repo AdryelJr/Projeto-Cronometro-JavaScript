@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <audio id="sound" src="./alarme/alarme.mp3" style="display: none;"></audio>
+    <audio id="sound" src="alarme/alarme.mp3" style="display: none;"></audio>
     <div class="container">
         <h2>Minutos:</h2>
         <select name="minutos" id="minutos"></select>
@@ -20,9 +20,13 @@
 
         <button id="comecar">Começar</button>
 
-        <div class="display">
-            <h3></h3>
+        <div id="display" style="display: block;">
+            <h3>0:0</h3>
+            <h4></h4>
         </div><!-- display -->
     </div><!--container-->
+
+
+    <script src="code.js"></script>
 </body>
 </html>
