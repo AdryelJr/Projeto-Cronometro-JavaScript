@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Cronometro - JavaScript</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <audio id="sound" src="./alarme/alarme.mp3" style="display: none;"></audio>
@@ -15,8 +15,14 @@
 
         <h2>Segundos:</h2>
         <select name="segundos" id="segundos"></select>
+        <br>
+        <br>
 
         <button id="comecar">Começar</button>
-    </div>
+
+        <div class="display">
+            <h3></h3>
+        </div><!-- display -->
+    </div><!--container-->
 </body>
 </html>
